@@ -30,3 +30,10 @@ async def get():
     return {
         'hello': 'test'
     }
+
+
+@app.get('/')
+async def init():
+    return {
+        'message': 'sucess'
+    }
