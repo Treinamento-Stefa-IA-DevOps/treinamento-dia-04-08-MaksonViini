@@ -9,6 +9,7 @@ app = FastAPI()
 # Coloque seu codigo na função abaixo
 async def titanic(Sex: int, Age: float, Lifeboat: int, Pclass: int):
     """
+    Method: POST
     Sex: Sexo da pessoa. EX: 0/1, Parametro binario
     Age: Idade da pessoa. Ex: 35
     Lifeboat: Numero do barco salva vidas. EX: 1, 2, 3...
